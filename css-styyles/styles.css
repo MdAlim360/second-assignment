@@ -233,7 +233,7 @@ span{          font-weight: 300;
     
 } 
 
-@media screen and (min-width:577px) and (max-width:1120px) {.banner img{width: 100%;} 
+@media screen and (min-width:577px) and (max-width:992px) {.banner img{width: 100%;} 
 
 /* ..............feature section responsive.................... */
              
@@ -250,7 +250,7 @@ span{          font-weight: 300;
          .nav-title .title{font-weight: 600px;
                          font-size: 35px;}
     
-                } 
+                 
 
 
                 /* ----------history section responsive--------- */
@@ -263,4 +263,5 @@ span{          font-weight: 300;
             height: 100%;}  
 
 .experience-btn{left: 10px;} 
+}
    
