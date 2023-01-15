@@ -163,9 +163,48 @@ span{          font-weight: 300;
                  color: #FFFFFF;   
                  padding-bottom: 10px;} 
 
-.experience-btn:hover{border: 3px solid aqua;}
-     
+.experience-btn:hover{border: 3px solid aqua;} 
 
+
+        /* ------------------success work-styles---------------- */
+
+
+.philosophy-title{margin-top: 130px; 
+                    margin-left: 80px; 
+                    font-family: 'Open Sans', sans-serif;
+                    color: #131313;} 
+                    
+    
+.philosophy-description{margin-top: 30px;
+                        margin-left: 80px; 
+                        font-family: 'Open Sans', sans-serif;
+                        color: #727272;} 
+
+.success-container{margin-top: 80px; 
+                   margin-left:60px;
+                   display: grid;
+                   grid-template-columns: repeat(4,1fr);
+                   grid-column-gap: 50px; 
+                } 
+
+.award, .projects, .email,.clints{border: 1px solid white; 
+        padding: 60px; 
+        width: 241.83px;
+        height: 241.83px; 
+        background-color:whitesmoke;
+        box-shadow: 5px 5px 5px gray;
+        font-family: 'Open Sans', sans-serif;
+        transition: .5s;}  
+
+.award-no,.projects-no, .email-no,.clints-no{text-align: center;
+                                font-family: 'Open Sans', sans-serif;} 
+
+.award:hover, .projects:hover, .email:hover,.clints:hover{transform: rotate(360deg); 
+              background-color: #FF900E; 
+             transform: rotate(360deg);
+             font-weight: 500px;
+             color: #FFFFFF; 
+              }
 
 
 
@@ -226,6 +265,13 @@ span{          font-weight: 300;
 .experience-btn{left: 10px;} 
 
 
+/* ---------------success-work section responsive----------------------- */
+
+.success-container{grid-template-columns: repeat(1,1fr);
+    margin-left: 70px; 
+    grid-row-gap: 20px;}
+
+
         
         
                           
@@ -262,6 +308,12 @@ span{          font-weight: 300;
                margin-top: 50px;
             height: 100%;}  
 
-.experience-btn{left: 10px;} 
+.experience-btn{left: 10px;}  
+
+
+/* -----------------success work section responsive--------------------- */
+.success-container{grid-template-columns: repeat(2,1fr); 
+                        margin-left: 150px; 
+                      grid-row-gap: 20px;}
 }
    
