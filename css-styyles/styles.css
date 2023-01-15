@@ -204,7 +204,83 @@ span{          font-weight: 300;
              transform: rotate(360deg);
              font-weight: 500px;
              color: #FFFFFF; 
-              }
+              } 
+
+              /* ..............award winning projects styles...... */
+
+.work-title{margin-top: 150px;
+            
+            font-family: 'Open Sans', sans-serif;
+            font-size: 45px;
+            font-weight: 700px; 
+            display: flex;
+            gap:15px;
+            justify-content: center} 
+
+.title-part-1,.title-part-3{color: #727272;} 
+.title-part-2{color: red;}
+.title-part-4{color: #FF900E;} 
+
+.award-winning-projects{display: grid;
+                        grid-template-columns: repeat(4,1fr); 
+                        padding: 10px;
+                        grid-column-gap:2px; 
+                        border-radius: 20px; 
+                        margin-top: 60px;} 
+
+ 
+
+.project-img img{width: 340px; 
+                 height: 250px;} 
+
+.project-img img:hover{border: 3px solid #FF900E;} 
+
+
+
+/* .....................sponsors section styles........................ */
+
+.sponsor{text-align: center;
+        margin-top: 50px;} 
+
+.sponsor-title{font-family: 'Open Sans', sans-serif;
+              color: #131313;
+              font-weight: 700;
+              font-size: 45px;} 
+
+.sponsor-description{color: #727272;
+                     font-family: 'Open Sans', sans-serif;} 
+
+.sponsor-img-container{display: flex;
+                       justify-content: space-around;
+                       margin-top: 60px;
+                       }
+
+.sponsor-img img{-webkit-filter: grayscale(100%);}
+
+.sponsor-img img:hover{-webkit-filter: grayscale(0%); 
+                        border:1px solid white;} 
+
+    /* ,,,,,,,,,,,,,,,,,,,copyright-text,,,,,,,,,,,,,,,,,,,,,, */
+
+    .copyright-text{margin-top: 70px;
+                    margin-left: 200px;
+                    text-align: center; 
+                    border: 1px solid #FFF4E7;
+                    background-color: #FFF4E7; 
+                    border-radius: 10px;
+                    width: 1000px;
+                    height: 100px; 
+                    padding-top: 50px;
+                    color: #727272;
+                    font-family: 'Open Sans', sans-serif;}
+
+
+
+
+
+
+
+
 
 
 
@@ -269,15 +345,39 @@ span{          font-weight: 300;
 
 .success-container{grid-template-columns: repeat(1,1fr);
     margin-left: 70px; 
-    grid-row-gap: 20px;}
+    grid-row-gap: 20px;} 
+
+     /* ............award winning projects responsive............. */ 
 
 
-        
-        
+     .award-winning-projects{grid-template-columns: repeat(1,1fr);}      
+     .project-img img{width: 100%;}  
+     .work-title{font-size: 18px;
+                  font-weight: 500px;} 
+                  
+    /* .....................sponsors section responsive................. */
                           
-                          
-    
+.sponsor-img-container{flex-direction: column; 
+                       padding-left: 140px;
+                       gap:20px} 
+
+.sponsor-img img{width: 100px;} 
+
+              /* copyright-text */
+
+.copyright-text{margin-left: 0px;
+                width: 100%; 
+                 height: 80px;
+                 padding-bottom: 80px;}
+
+
+
+
+
 } 
+
+
+
 
 @media screen and (min-width:577px) and (max-width:992px) {.banner img{width: 100%;} 
 
@@ -315,5 +415,27 @@ span{          font-weight: 300;
 .success-container{grid-template-columns: repeat(2,1fr); 
                         margin-left: 150px; 
                       grid-row-gap: 20px;}
+
+
+    /* ..................award winning projects responsive................ */ 
+
+
+     .award-winning-projects{grid-template-columns: repeat(2,1fr);}      
+     .project-img img{width: 100%;} 
+
+ /* .....................sponsors section responsive................. */
+
+ .sponsor-img-container{flex-wrap: wrap;
+                         gap: 80px; 
+                        }
+
+                         /* copyright-text */
+
+.copyright-text{margin-left: 0px;
+    width: 100%; 
+     height: 80px;
+     padding-bottom: 80px;}
+
+
 }
    
