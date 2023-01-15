@@ -274,24 +274,126 @@ span{          font-weight: 300;
                     color: #727272;
                     font-family: 'Open Sans', sans-serif;}
 
+                    /* footer styles */ 
+
+
+footer{background-image:linear-gradient(45deg,#36332eca,
+    #090909bd),url(images/work/bge3.jpg );
+       height: 1000px;
+       width: 100%;
+       margin-top: 80px; 
+       
+     } 
+     
+.contact{text-align: center; 
+         padding-top: 90px;
+         color: white;
+         font-family: 'Open Sans', sans-serif;} 
+
+.contact-title{font-weight: 50px;font-size: 40px; } 
+
+.information-container{display: flex; 
+                       justify-content: space-around; 
+                       margin-top: 150px;} 
+.address{color: #FFFFFF;
+          } 
+
+ .name input{width:300px;
+            height: 50px;
+            font-size: 24px;
+            text-align: center; 
+            background: transparent; 
+            border-radius: 20px;
+            border:1px solid #31302e;
+            outline: none;
+            }
+
+.email-ad input{width:300px;
+                height: 50px;
+                font-size: 24px;
+                text-align: center; 
+                 
+            background: transparent; 
+            border-radius: 20px;
+            border:1px solid #31302e;
+            outline: none;}
+
+.subject input{    width:610px;
+                height: 50px;
+                font-size: 24px;
+                text-align: center;  
+                margin-top: 10px;
+                background: transparent; 
+                
+                border-radius: 20px;
+                border:1px solid #31302e;
+                outline: none;}
+
+.send input         {width:610px;
+                    height: 50px;
+                    font-size: 24px;
+                    text-align: center; 
+                    margin-top: 10px;
+                    background: transparent; 
+                    border:1px solid #31302e;
+                    outline: none;
+                    border-radius: 20px; 
+                    background-color: #660000;
+                    color: #FFFFFF;} 
+
+textarea{          background: transparent; 
+                   border:1px solid #31302e;
+                   outline: none; 
+                   color: #727272; 
+                   border-radius: 20px; 
+                   padding: 20px;}
+
+.input-container{display: flex; gap: 10px;}  
+
+
+.name:hover,.email-ad:hover,.send:hover,.subject:hover,textarea:hover{           border: 2px solid royalblue;
+            border-radius: 20px; 
+            box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+            color:white}
+
+.social-links{width: 100%;
+              height: 210px;
+              background-color: #660000;
+              margin-top: 100px;} 
+
+.join{     text-align: center;color: #FFFFFF; 
+           padding-top: 30px;
+           font-family: 'Open Sans', sans-serif;
+           font-size: 30px; 
+           font-weight: 200;}
+
+.icon{       justify-content: center;
+             margin-top: 80px;
+             display: flex; 
+              gap: 20px; 
+            } 
+
+
+
+.fb:hover{background-color:mediumslateblue ;
+           border-radius: 10px;}
+.youtube:hover{background-color: deeppink;
+               border-radius: 10px;}
+.earth:hover{background-color: coral;
+                border-radius: 10px;}
+.twitter:hover{background-color: chartreuse;
+                    border-radius: 10px;}
+.email-icon:hover{background-color: rgb(243, 5, 5);
+                        border-radius: 10px;}
+.linkedin:hover{background-color: blue;
+                            border-radius: 10px;}
+.telegram:hover{background-color: purple;
+                                border-radius: 10px;}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ...........................RESPONSIVE AREA........................... */
 
 
 
@@ -370,9 +472,17 @@ span{          font-weight: 300;
                  height: 80px;
                  padding-bottom: 80px;}
 
+                 /* footer responsive */
 
-
-
+.information-container{flex-direction:column-reverse;height:500px;}
+.input-container{flex-direction: column;} 
+.subject input{width: 383px; border: 2px solid white;} 
+textarea{width: 380px;border: 2px solid white;} 
+.send input{width: 390px;border: 2px solid white;}
+.name input{width: 380px;border: 2px solid white;}
+.email-ad input{width: 380px;border: 2px solid white;}
+.icon{flex-wrap: wrap; gap: 50px;} 
+.social-links{height: 300px;}
 
 } 
 
